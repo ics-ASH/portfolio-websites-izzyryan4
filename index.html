@@ -5,27 +5,28 @@
   <style>
     ul{
       list-style-type:none;
-      margin:0;
+      margin:0 auto; /* add this line */
       padding:0;
       overflow:0;
-      background-color:#424242;
+      background-color:#ffffff;
+      text-align:center; /* add this line */
     }
     li {
-      float:left;
-      border-right: 1px solid #bbb;
+      display:inline-block; /* change float to inline-block */
+      border-right: 1px solid #000000;
     }
     li:last-child {
       border-right: none;
     }
     li a {
       display: block;
-      color: white;
+      color: rgb(0, 0, 0);
       text-align:center;
       padding: 14px 16px;
       text-decoration: none;
     }
     li a:hover:not(.active) {
-      background-color:#111;
+      background-color:#ff49d8;
     }
     .active{
       background-color: #f3f3f3:#04AA6D;
@@ -33,18 +34,17 @@
 
   </style>
 
-  <body style="background-color:rgb(255, 180, 233)"></body>
-  <h1 style="font-family:'Courier New';background-color:rgb(255, 255, 255);text-align: center;">Izzy's AWESOME Portfolio</h1>
+  <body style="background-color:rgb(255, 180, 233)">
+    <h1 style="font-family:'Courier New';background-color:rgb(255, 255, 255);text-align: center;">Izzy's AWESOME Portfolio</h1>
 
-<body>
-  <ul>
- 
- <li><a href="Journal.html">journal</a></li>
- <li><a href="about me.html">about me</a></li>
- <li><a href="bookmark.html">bookmarks</a></li>
- <li><a href="Tech Tuesday.html">tech tuesday</a></li>
- <li><a href="project.html">projects</a></li>
- <li><a href="http://www.garageclothing.com/ca/home?brandId=garage">Garage site</li>
-</ul>
-</body>
-</html> 
+    <ul>
+     <li><a href="Journal.html">journal</a></li>
+     <li><a href="about me.html">about me</a></li>
+     <li><a href="bookmark.html">bookmarks</a></li>
+     <li><a href="Tech Tuesday.html">tech tuesday</a></li>
+     <li><a href="project.html">projects</a></li>
+     <li><a href="http://www.garageclothing.com/ca/home?brandId=garage">Garage site</li>
+    </ul>
+
+  </body>
+</html>
