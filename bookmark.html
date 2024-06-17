@@ -1,11 +1,78 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>Bookmark</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 251, 216);
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            background-color: rgb(219, 221, 166);
+            color: white; 
+            padding: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-top: 20px;
+        }
+        p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .bookmark-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .bookmark-list li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
 </head>
 
-<body style="background-color: rgb(255, 251, 216);">
-    <h1 style="background-color: rgb(249, 255, 63);">Bookmarks</h1>
-    <p><a href="index.html">Home page</a>
-    <p>This is some content about me.</p>
+<body>
+    <h1>Bookmarks</h1>
+    <p><a href="index.html">Home page</a></p>
+
+    <div class="content">
+        <h2>Some information about the bookmarks used</h2>
+        <p>In this class we explored many different softwares to enhance the experiance of learning new codes.</p>
+        <p>The following links are common platforms used in this class :)</p>
+    
+    
+    </div>
+
+    <div class="content">
+        <h2>Favorite Bookmarks</h2>
+        <ul class="bookmark-list">
+            <li><a href="https://classroom.google.com/">Google Classroom</a></li>
+            <li><a href="https://codehs.com">CodeHS</a></li>
+            <li><a href="https://github.com/?authuser=0">GitHub</a></li>
+            <li><a href="https://codepen.io/">CodePen</a></li>
+            <li><a href="https://academy.cs.cmu.edu/">CMU</a></li>
+            <li><a href="https://cscircles.cemc.uwaterloo.ca/">CSCircles</a></li>
+            <li><a href="https://www.w3schools.co">W3Schools</a></li>
+            <li><a href="Belouga.org">Belouga</li>
+        </ul>
+    </div>
 </body>
 </html>
