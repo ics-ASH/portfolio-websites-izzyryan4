@@ -5,14 +5,14 @@
   <style>
     ul{
       list-style-type:none;
-      margin:0 auto; /* add this line */
+      margin:0 auto; 
       padding:0;
       overflow:0;
       background-color:#ffffff;
-      text-align:center; /* add this line */
+      text-align:center; 
     }
     li {
-      display:inline-block; /* change float to inline-block */
+      display:inline-block; 
       border-right: 1px solid #000000;
     }
     li:last-child {
@@ -31,7 +31,12 @@
     .active{
       background-color: #f3f3f3:#04AA6D;
     }
-
+    li::before {
+      font-size: 18px;
+      content: "\2665"; /* small heart icon */
+      color: rgb(247, 178, 226); 
+      margin-right: 10px; /* add some space between the heart and the link text */
+    }
   </style>
 
   <body style="background-color:rgb(255, 180, 233)">
